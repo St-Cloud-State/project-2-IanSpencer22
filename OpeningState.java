@@ -1,4 +1,5 @@
 import javax.swing.*;
+import java.awt.FlowLayout;
 import java.awt.event.*;
 
 public class OpeningState implements State {
