@@ -1,0 +1,592 @@
+﻿**********************
+Windows PowerShell transcript start
+Start time: 20241025104849
+Username: IANPC\IanS2
+RunAs User: IANPC\IanS2
+Configuration Name: 
+Machine: IANPC (Microsoft Windows NT 10.0.19045.0)
+Host Application: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -noexit -command try { . "c:\Users\IanS2\AppData\Local\Programs\cursor\resources\app\out\vs\workbench\contrib\terminal\browser\media\shellIntegration.ps1" } catch {}
+Process ID: 14284
+PSVersion: 5.1.19041.5007
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.19041.5007
+BuildVersion: 10.0.19041.5007
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+Transcript started, output file is Project1FinalScript.log
+PS C:\Users\IanS2\Documents\SCSU Classes\Fall 2024\CSCI 530\Stage 1\warehouse-stage-i-implementation-IanSpencer22\WareStage1> java UserInterface.java
+Look for saved data and use it? (Y|y)[es] or anything else for no
+no
+Enter a number between 0 and 13 as explained below:
+0 to Exit
+17 for help
+
+1 to add a client
+2 to display all clients
+3 to add a product to catalog
+4 to remove a product from catalog    
+5 to show products
+6 to add a product to wishlist        
+7 to remove a product from wishlist   
+8 to display products in wishlist     
+9 to show waitlist
+10 to remove an item from the waitlist
+11 to process a client's order        
+12 to print invoice
+13 to receive payment from a client   
+14 to receive a shipment
+15 to save data
+16 to retrieve data
+Enter command:17 for help
+1
+Adding a new client...
+Enter client name
+Alice
+Enter client address
+123 Main St
+Enter client phone
+555-1234
+Client added successfully
+
+Enter command:17 for help
+1
+Adding a new client...
+Enter client name
+Bob
+Enter client address
+456 Elm St
+Enter client phone
+555-5678
+Client added successfully
+
+Enter command:17 for help
+1
+Adding a new client...
+Enter client name
+Charlie
+Enter client address
+789 Oak St
+Enter client phone
+555-8765
+Client added successfully
+
+Enter command:17 for help
+1
+Adding a new client...
+Enter client name
+David
+Enter client address
+321 Pine St
+Enter client phone
+555-4321
+Client added successfully
+
+Enter command:17 for help
+1
+Adding a new client...
+Enter client name
+Eve
+Enter client address
+654 Maple St
+Enter client phone
+123-5555
+Client added successfully
+
+Enter command:17 for help
+2
+Displaying all clients...
+Id: C1 | Name: Alice | Address: 123 Main St | Phone: 555-1234 | Balance: $0.0
+Id: C2 | Name: Bob | Address: 456 Elm St | Phone: 555-5678 | Balance: $0.0
+Id: C3 | Name: Charlie | Address: 789 Oak St | Phone: 555-8765 | Balance: $0.0
+Id: C4 | Name: David | Address: 321 Pine St | Phone: 555-4321 | Balance: $0.0
+Id: C5 | Name: Eve | Address: 654 Maple St | Phone: 123-5555 | Balance: $0.0
+
+Enter command:17 for help
+3
+Adding a new product...
+Enter product name
+Product1 
+Enter product id
+P1
+Enter quantity
+10
+Enter price
+1
+Product added successfully
+
+Enter command:17 for help
+3
+Adding a new product...
+Enter product name
+Product2
+Enter product id
+P2
+Enter quantity
+20
+Enter price
+2
+Product added successfully
+
+Enter command:17 for help
+3
+Adding a new product...
+Enter product name
+Product3
+Enter product id
+P3
+Enter quantity
+30
+Enter price
+3
+Product added successfully
+
+Enter command:17 for help
+3
+Adding a new product...
+Enter product name
+Product4
+Enter product id
+P4
+Enter quantity
+40
+Enter price
+4
+Product added successfully
+
+Enter command:17 for help
+3
+Adding a new product...
+Enter product name
+Product5
+Enter product id
+P5
+Enter quantity
+50
+Enter price
+5
+Product added successfully
+
+Enter command:17 for help
+5
+Displaying all products...
+ID: P1 | Name: Product1 | Quantity: 10 | Price: $1.0
+ID: P2 | Name: Product2 | Quantity: 20 | Price: $2.0
+ID: P3 | Name: Product3 | Quantity: 30 | Price: $3.0
+ID: P4 | Name: Product4 | Quantity: 40 | Price: $4.0
+ID: P5 | Name: Product5 | Quantity: 50 | Price: $5.0
+
+Enter command:17 for help
+6
+Adding an item to the wishlist...
+Enter client id
+C1
+Enter product id
+P1
+Enter quantity
+5
+Item added to wishlist
+
+Enter command:17 for help
+6
+Adding an item to the wishlist...
+Enter client id
+C1
+Enter product id
+P3
+Enter quantity
+5
+Item added to wishlist
+
+Enter command:17 for help
+6
+Adding an item to the wishlist...
+Enter client id
+C1
+Enter product id
+P5
+Enter quantity
+5
+Item added to wishlist
+
+Enter command:17 for help
+8
+Displaying products on wishlist...
+Enter client id
+C1
+WishlistItem[ClientId: C1 | ProductId: P1 | Quantity: 5]
+WishlistItem[ClientId: C1 | ProductId: P3 | Quantity: 5]
+WishlistItem[ClientId: C1 | ProductId: P5 | Quantity: 5]
+
+Enter command:17 for help
+6
+Adding an item to the wishlist...
+Enter client id
+C2 
+Enter product id
+P1
+Enter quantity
+7
+Item added to wishlist   
+
+Enter command:17 for help
+6
+Adding an item to the wishlist...
+Enter client id
+C2
+Enter product id
+P2
+Enter quantity
+7
+Item added to wishlist   
+
+Enter command:17 for help
+6
+Adding an item to the wishlist...
+Enter client id
+C2
+Enter product id
+P4
+Enter quantity
+7
+Item added to wishlist   
+
+Enter command:17 for help
+8
+Displaying products on wishlist...
+Enter client id
+C2
+WishlistItem[ClientId: C2 | ProductId: P1 | Quantity: 7]
+WishlistItem[ClientId: C2 | ProductId: P2 | Quantity: 7]
+WishlistItem[ClientId: C2 | ProductId: P4 | Quantity: 7]
+
+Enter command:17 for help
+6
+Adding an item to the wishlist...
+Enter client id
+C3
+Enter product id
+P1
+Enter quantity
+6
+Item added to wishlist
+
+Enter command:17 for help
+6
+Adding an item to the wishlist...
+Enter client id
+C3
+Enter product id
+P2
+Enter quantity
+6
+Item added to wishlist
+
+Enter command:17 for help
+6
+Adding an item to the wishlist...
+Enter client id
+C3
+Enter product id
+P5
+Enter quantity
+6
+Item added to wishlist
+
+Enter command:17 for help
+8
+Displaying products on wishlist...
+Enter client id
+C3
+WishlistItem[ClientId: C3 | ProductId: P1 | Quantity: 6]
+WishlistItem[ClientId: C3 | ProductId: P2 | Quantity: 6]
+WishlistItem[ClientId: C3 | ProductId: P5 | Quantity: 6]
+
+Enter command:17 for help
+11
+Processing client order...
+Enter client id
+C2
+Product ID: P1 | Quantity: 7 | Price: $1.0
+Enter action (order/drop/leave):
+Order
+Enter quantity
+7
+Product ID: P2 | Quantity: 7 | Price: $2.0
+Enter action (order/drop/leave):
+order
+Enter quantity
+7
+Product ID: P4 | Quantity: 7 | Price: $4.0
+Enter action (order/drop/leave):
+order
+Enter quantity
+7
+Order Placed for C2. Total cost: $49.0
+
+Enter command:17 for help
+2
+Displaying all clients...
+Id: C1 | Name: Alice | Address: 123 Main St | Phone: 555-1234 | Balance: $0.0
+Id: C2 | Name: Bob | Address: 456 Elm St | Phone: 555-5678 | Balance: $-49.0
+Id: C3 | Name: Charlie | Address: 789 Oak St | Phone: 555-8765 | Balance: $0.0
+Id: C4 | Name: David | Address: 321 Pine St | Phone: 555-4321 | Balance: $0.0
+Id: C5 | Name: Eve | Address: 654 Maple St | Phone: 123-5555 | Balance: $0.0
+
+Enter command:17 for help
+11
+Processing client order...
+Enter client id
+C3
+Product ID: P1 | Quantity: 6 | Price: $1.0
+Enter action (order/drop/leave):
+order
+Enter quantity
+6
+Product ID: P2 | Quantity: 6 | Price: $2.0
+Enter action (order/drop/leave):
+order
+Enter quantity
+6
+Product ID: P5 | Quantity: 6 | Price: $5.0
+Enter action (order/drop/leave):
+order
+Enter quantity
+6
+Order Placed for C3. Total cost: $45.0
+
+Enter command:17 for help
+2
+Displaying all clients...
+Id: C1 | Name: Alice | Address: 123 Main St | Phone: 555-1234 | Balance: $0.0
+Id: C2 | Name: Bob | Address: 456 Elm St | Phone: 555-5678 | Balance: $-49.0
+Id: C3 | Name: Charlie | Address: 789 Oak St | Phone: 555-8765 | Balance: $-45.0
+Id: C4 | Name: David | Address: 321 Pine St | Phone: 555-4321 | Balance: $0.0
+Id: C5 | Name: Eve | Address: 654 Maple St | Phone: 123-5555 | Balance: $0.0
+
+Enter command:17 for help
+8
+Displaying products on wishlist...
+Enter client id
+C2
+Wishlist is empty for client: C2
+
+Enter command:17 for help
+8
+Displaying products on wishlist...
+Enter client id
+C3
+Wishlist is empty for client: C3
+
+Enter command:17 for help
+9
+Displaying waitlist for a product...
+Enter product id
+P1
+WaitlistItem[ClientId: C3 | ProductId: P1 | Quantity: 3]
+
+Enter command:17 for help
+9
+Displaying waitlist for a product...
+Enter product id
+P2
+No waitlist items for product ID: P2
+
+Enter command:17 for help
+11
+Processing client order...
+Enter client id
+C1
+Product ID: P1 | Quantity: 5 | Price: $1.0
+Enter action (order/drop/leave):
+order
+Enter quantity
+5
+Product ID: P3 | Quantity: 5 | Price: $3.0
+Enter action (order/drop/leave):
+order
+Enter quantity
+5
+Product ID: P5 | Quantity: 5 | Price: $5.0
+Enter action (order/drop/leave):
+order
+Enter quantity
+5
+Order Placed for C1. Total cost: $40.0
+
+Enter command:17 for help
+2
+Displaying all clients...
+Id: C1 | Name: Alice | Address: 123 Main St | Phone: 555-1234 | Balance: $-40.0
+Id: C2 | Name: Bob | Address: 456 Elm St | Phone: 555-5678 | Balance: $-49.0
+Id: C3 | Name: Charlie | Address: 789 Oak St | Phone: 555-8765 | Balance: $-45.0
+Id: C4 | Name: David | Address: 321 Pine St | Phone: 555-4321 | Balance: $0.0
+Id: C5 | Name: Eve | Address: 654 Maple St | Phone: 123-5555 | Balance: $0.0
+
+Enter command:17 for help
+8
+Displaying products on wishlist...
+Enter client id
+C1
+Wishlist is empty for client: C1
+
+Enter command:17 for help
+13
+Receiving a payment...
+Enter client id
+C1
+Enter payment amount
+100
+Payment of $100.0 received from client C1
+
+Enter command:17 for help
+13
+Receiving a payment...
+Enter client id
+C2
+Enter payment amount
+100
+Payment of $100.0 received from client C2
+
+Enter command:17 for help
+2
+Displaying all clients...
+Id: C1 | Name: Alice | Address: 123 Main St | Phone: 555-1234 | Balance: $60.0
+Id: C2 | Name: Bob | Address: 456 Elm St | Phone: 555-5678 | Balance: $51.0
+Id: C3 | Name: Charlie | Address: 789 Oak St | Phone: 555-8765 | Balance: $-45.0
+Id: C4 | Name: David | Address: 321 Pine St | Phone: 555-4321 | Balance: $0.0
+Id: C5 | Name: Eve | Address: 654 Maple St | Phone: 123-5555 | Balance: $0.0
+
+Enter command:17 for help
+9
+Displaying waitlist for a product...
+Enter product id
+P1
+WaitlistItem[ClientId: C3 | ProductId: P1 | Quantity: 3]
+WaitlistItem[ClientId: C1 | ProductId: P1 | Quantity: 5]
+
+Enter command:17 for help
+14
+Receiving a shipment...
+Enter product id
+P1
+Enter quantity received
+100
+Shipment received for P1
+
+Enter command:17 for help
+9
+Displaying waitlist for a product...
+Enter product id
+P1
+Waitlist is empty for product: P1
+
+Enter command:17 for help
+5
+Displaying all products...
+ID: P1 | Name: Product1 | Quantity: 92 | Price: $1.0
+ID: P2 | Name: Product2 | Quantity: 7 | Price: $2.0
+ID: P3 | Name: Product3 | Quantity: 25 | Price: $3.0
+ID: P4 | Name: Product4 | Quantity: 33 | Price: $4.0
+ID: P5 | Name: Product5 | Quantity: 39 | Price: $5.0
+
+Enter command:17 for help
+2
+Displaying all clients...
+Id: C1 | Name: Alice | Address: 123 Main St | Phone: 555-1234 | Balance: $55.0
+Id: C2 | Name: Bob | Address: 456 Elm St | Phone: 555-5678 | Balance: $51.0
+Id: C3 | Name: Charlie | Address: 789 Oak St | Phone: 555-8765 | Balance: $-48.0
+Id: C4 | Name: David | Address: 321 Pine St | Phone: 555-4321 | Balance: $0.0
+Id: C5 | Name: Eve | Address: 654 Maple St | Phone: 123-5555 | Balance: $0.0
+
+Enter command:17 for help
+12
+Generating an invoice...
+Enter client id
+C1
+------------------------------------
+Invoice for Client ID: C1
+Name: Alice
+Address: 123 Main St
+Phone: 555-1234
+
+Processed Orders:
+Product ID: P3, Quantity: 5, Total Cost: $15.0
+Product ID: P5, Quantity: 5, Total Cost: $25.0
+
+Fulfilled Waitlist Items:
+Product ID: P1, Quantity: 5, Total Cost: $5.0
+
+Payments Received:
+Payment Amount: $100.0
+
+Summary:
+Total Cost of Orders and Fulfilled Waitlist Items: $45.0
+Total Payments Received: $100.0
+Account Balance: $55.0
+------------------------------------
+
+Enter command:17 for help
+12
+Generating an invoice...
+Enter client id
+C2
+------------------------------------
+Invoice for Client ID: C2
+Name: Bob
+Address: 456 Elm St
+Phone: 555-5678
+
+Processed Orders:
+Product ID: P1, Quantity: 7, Total Cost: $7.0
+Product ID: P2, Quantity: 7, Total Cost: $14.0
+Product ID: P4, Quantity: 7, Total Cost: $28.0
+
+Fulfilled Waitlist Items:
+
+Payments Received:
+Payment Amount: $100.0
+
+Summary:
+Total Cost of Orders and Fulfilled Waitlist Items: $49.0
+Total Payments Received: $100.0
+Account Balance: $51.0
+------------------------------------
+
+Enter command:17 for help
+12
+Generating an invoice...
+Enter client id
+C3
+------------------------------------
+Invoice for Client ID: C3
+Name: Charlie
+Address: 789 Oak St
+Phone: 555-8765
+
+Processed Orders:
+Product ID: P1, Quantity: 3, Total Cost: $3.0
+Product ID: P2, Quantity: 6, Total Cost: $12.0
+Product ID: P5, Quantity: 6, Total Cost: $30.0
+
+Fulfilled Waitlist Items:
+Product ID: P1, Quantity: 3, Total Cost: $3.0
+
+Payments Received:
+Payment Amount: $0.0
+
+Summary:
+Total Cost of Orders and Fulfilled Waitlist Items: $48.0
+Total Payments Received: $0.0
+Account Balance: $-48.0
+------------------------------------
+
+Enter command:17 for help
+0
+PS C:\Users\IanS2\Documents\SCSU Classes\Fall 2024\CSCI 530\Stage 1\warehouse-stage-i-implementation-IanSpencer22\WareStage1> Stop-Transcript
+**********************
+Windows PowerShell transcript end
+End time: 20241025110459
+**********************
